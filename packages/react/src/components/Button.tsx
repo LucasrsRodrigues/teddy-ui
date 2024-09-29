@@ -1,0 +1,88 @@
+import { ComponentProps, ReactElement } from "react";
+import { styled } from "../styles";
+
+export const Button = styled('button', {
+  all: 'unset',
+  borderRadius: '$xs',
+  fontSize: '$sm',
+  fontWeight: '$medium',
+  fontFamily: '$default',
+  textAlign: 'center',
+  minWidth: 120,
+  boxSizing: 'border-box',
+
+
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: '$2',
+
+
+  cursor: 'pointer',
+
+  '&:disabled': {
+    cursor: 'not-allowed'
+  },
+
+  variants: {
+    variant: {
+      primary: {
+        color: "$white",
+        background: "$orange",
+
+        '&:not(:disabled):hover': {
+          background: "$orangeLight"
+        },
+
+        '&:disabled': {
+          backgroundColor: '$granit',
+          cursor: 'not-allowed'
+        }
+      },
+
+      secondary: {
+        color: "$orange",
+        border: "2px solid $orange",
+
+
+        '&:not(:disabled):hover': {
+          background: "$orange",
+          color: "$white"
+        },
+
+        '&:disabled': {
+          color: "$granit",
+          borderCollapse: "$granit"
+        }
+      },
+
+      thertiary: {
+        color: "$black",
+        width: "$8",
+        height: "$8"
+      }
+    },
+
+    size: {
+      sm: {
+        padding: '0 $4',
+        height: 35
+      },
+      md: {
+        padding: '0 $4',
+        height: 46
+      }
+    }
+  },
+
+  defaultVariants: {
+    variant: 'primary',
+    size: 'md'
+  }
+});
+
+export interface ButtonProps extends ComponentProps<typeof Button> {
+  as?: ReactElement
+}
+
+Button.displayName = "Button";

@@ -1,0 +1,6 @@
+{
+  "extends": "@teddy-ui/ts-config/base.json",
+  "include": [
+    "src"
+  ],
+}

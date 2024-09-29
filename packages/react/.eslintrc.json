@@ -1,0 +1,3 @@
+{
+  "extends": "@teddy-ui/eslint-config"
+}

@@ -1,0 +1,195 @@
+2024-09-29T01:42:56.690787Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/.turbo-cookie"), AnchoredSystemPathBuf(".turbo/cookies/1.cookie")}
+2024-09-29T01:42:56.690797Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-29T01:43:00.893201Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/vite.config.ts.timestamp-1727574180769-877248efd3b93.mjs")}
+2024-09-29T01:43:00.893737Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T01:43:28.090191Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T01:43:28.090267Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T01:44:03.187737Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:44:03.187770Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:45:31.885996Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:45:31.886013Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:48:56.282556Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:48:56.283615Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:49:47.778853Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T01:49:47.778879Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:49:55.675716Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:49:55.675736Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:49:56.882319Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:49:56.883374Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:49:56.885443Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-29T01:50:27.773978Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:50:27.774002Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:52:27.575658Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T01:52:27.576717Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:52:55.970393Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T01:52:55.970417Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:54:03.066405Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T01:54:03.066426Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:54:23.567543Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:54:23.567591Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:54:28.166987Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:54:28.167015Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:55:48.675619Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Button.tsx")}
+2024-09-29T01:55:48.676770Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:55:52.163044Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Button.tsx")}
+2024-09-29T01:55:52.163072Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:55:52.163098Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-29T01:56:02.663035Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:56:02.663050Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:56:51.561002Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Button.tsx")}
+2024-09-29T01:56:51.561046Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:57:14.959562Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Button.tsx")}
+2024-09-29T01:57:14.959590Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T01:58:09.059486Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T01:58:09.059510Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:01:42.479722Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T02:01:42.481045Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:02:07.761043Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T02:02:07.762957Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:14:15.028847Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:14:15.029623Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:16:41.923357Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:16:41.924319Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:16:58.420766Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:16:58.420856Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:17:25.120124Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:17:25.120144Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:17:49.817535Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:17:49.817557Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:17:54.517487Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:17:54.517515Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:19:27.716989Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:19:27.718167Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:19:34.717033Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:19:34.717272Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:20:27.510763Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:20:27.510783Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:20:45.012040Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T02:20:45.012543Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:21:07.614486Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:21:07.615501Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:21:30.415553Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:21:30.416701Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:21:32.623722Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:21:32.625220Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:22:17.344543Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:22:17.364669Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:22:27.507635Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:22:27.507721Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:22:41.106348Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:22:41.106362Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:22:49.907231Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:22:49.907248Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:22:50.410129Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:22:50.410186Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:22:56.343046Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:22:56.343940Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:22:56.806686Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:22:56.806716Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:27:10.904392Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:27:10.905402Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:27:26.797464Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:27:26.797522Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:27:37.096719Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:27:37.096752Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:27:58.295492Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:27:58.295513Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:28:25.594250Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T02:28:25.594270Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:28:26.793911Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:28:26.793983Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:28:26.794150Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-29T02:29:14.591939Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:29:14.591971Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:29:35.892511Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:29:35.892574Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:30:01.690680Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:30:01.690707Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:30:23.589882Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:30:23.589897Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:30:40.389247Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:30:40.389261Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:30:47.689631Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:30:47.689650Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:31:15.190019Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:31:15.190133Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:31:24.888674Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:31:24.888732Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:32:03.086547Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:32:03.086645Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:32:23.686274Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:32:23.686300Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:32:50.883846Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:32:50.883889Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:33:16.786991Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T02:33:16.787178Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:33:50.082504Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:33:50.082541Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:36:07.922263Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T02:36:07.924183Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:36:45.183756Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:36:45.185010Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:37:18.776320Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Text.stories.tsx")}
+2024-09-29T02:37:18.776396Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:37:18.824693Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-29T02:37:54.674488Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T02:37:54.674514Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:38:17.972286Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/docs/src/stories/Pagination.stories.tsx")}
+2024-09-29T02:38:17.972336Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("docs"), path: AnchoredSystemPathBuf("packages/docs") }}))
+2024-09-29T02:38:44.472701Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:38:44.472720Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:38:49.972780Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:38:49.972825Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:38:58.971151Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:38:58.971169Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:15.372337Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:39:15.372379Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:19.374014Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:39:19.374116Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:32.569700Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:39:32.569728Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:39.170443Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:39:39.170479Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:39.271237Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:39:39.271249Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:39.271266Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-29T02:39:45.772553Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:39:45.772923Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:50.969916Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:39:50.970023Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:51.068832Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:39:51.068844Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:39:51.068872Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-29T02:40:29.568102Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:40:29.568121Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:40:42.067960Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:40:42.067974Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:40:51.686918Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:40:51.686939Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:41:55.264820Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:41:55.264995Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:42:07.668126Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:42:07.668149Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:42:57.762935Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:42:57.762948Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:42:57.762965Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-29T02:43:01.762751Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:43:01.762774Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:43:10.768111Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:43:10.768164Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:43:44.662145Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:43:44.662163Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:43:53.061150Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:43:53.061180Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:44:44.784763Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:44:44.786583Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:44:56.524702Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/styles.ts")}
+2024-09-29T02:44:56.532869Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:47:02.790109Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:47:02.792838Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:48:30.802271Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:48:30.803743Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:49:57.755260Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:49:57.756828Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
+2024-09-29T02:50:33.448475Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/src/components/Pagination/index.tsx")}
+2024-09-29T02:50:33.448517Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
