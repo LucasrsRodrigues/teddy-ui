@@ -19,7 +19,7 @@ jobs:
       - run: npm ci
         env:
           TURBO_TOKEN: lR2DBI0CMwrxbmp1e9JIHRmL
-          TURBO_TEAM: lucasrsrodrigues
+          TURBO_TEAM: lucasrsrodrigues-projects
 
       - run: npm run build
 
