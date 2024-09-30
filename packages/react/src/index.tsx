@@ -1,8 +1,8 @@
-export * from "./components/Box";
-export * from "./components/Text";
-export * from "./components/Heading";
-export * from "./components/Button";
-export * from "./components/TextInput";
-export * from "./components/Pagination";
+export * from './components/Box'
+export * from './components/Text'
+export * from './components/Heading'
+export * from './components/Button'
+export * from './components/TextInput'
+export * from './components/Pagination'
 
-export * from "./styles";
+export * from './styles'

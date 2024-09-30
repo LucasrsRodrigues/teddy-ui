@@ -6,6 +6,11 @@
 
 - 50069d2: add resizee button
 
+
+### Patch Changes
+
+- Fix with button
+- 
 ## 2.0.1
 
 ### Patch Changes
