@@ -1,5 +1,5 @@
-import { ComponentProps, ReactElement } from "react";
-import { styled } from "../styles";
+import { ComponentProps, ReactElement } from 'react'
+import { styled } from '../styles'
 
 export const Button = styled('button', {
   all: 'unset',
@@ -11,17 +11,15 @@ export const Button = styled('button', {
   minWidth: 120,
   boxSizing: 'border-box',
 
-
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   gap: '$2',
 
-
   cursor: 'pointer',
 
   '&:disabled': {
-    cursor: 'not-allowed'
+    cursor: 'not-allowed',
   },
 
   '&:focus': {
@@ -31,62 +29,60 @@ export const Button = styled('button', {
   variants: {
     variant: {
       primary: {
-        color: "$white",
-        background: "$orange",
+        color: '$white',
+        background: '$orange',
 
         '&:not(:disabled):hover': {
-          background: "$orangeLight"
+          background: '$orangeLight',
         },
 
         '&:disabled': {
           backgroundColor: '$granit',
-          cursor: 'not-allowed'
-        }
+          cursor: 'not-allowed',
+        },
       },
 
       secondary: {
-        color: "$orange",
-        border: "2px solid $orange",
-
+        color: '$orange',
+        border: '2px solid $orange',
 
         '&:not(:disabled):hover': {
-          background: "$orange",
-          color: "$white"
+          background: '$orange',
+          color: '$white',
         },
 
         '&:disabled': {
-          color: "$granit",
-          borderCollapse: "$granit"
-        }
+          color: '$granit',
+          borderCollapse: '$granit',
+        },
       },
-
-      thertiary: {
-        color: "$black",
-        width: "$8",
-        height: "$8"
-      }
     },
 
     size: {
       sm: {
         padding: '0 $4',
-        height: 35
+        height: 35,
       },
       md: {
         padding: '0 $4',
-        height: 46
-      }
-    }
+        height: 46,
+      },
+      full: {
+        width: '100%',
+        padding: '0 $4',
+        height: 46,
+      },
+    },
   },
 
   defaultVariants: {
     variant: 'primary',
-    size: 'md'
-  }
-});
+    size: 'md',
+  },
+})
 
 export interface ButtonProps extends ComponentProps<typeof Button> {
   as?: ReactElement
 }
 
-Button.displayName = "Button";
+Button.displayName = 'Button'
