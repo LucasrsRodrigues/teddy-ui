@@ -260,3 +260,5 @@
 2024-09-30T18:28:01.711850Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/package.json"), AnchoredSystemPathBuf(".changeset/new-pens-kiss.md"), AnchoredSystemPathBuf("packages/docs/package.json"), AnchoredSystemPathBuf("packages/react/CHANGELOG.md")}
 2024-09-30T18:28:01.711875Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/docs"), path: AnchoredSystemPathBuf("packages/docs") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }, WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
 2024-09-30T18:28:01.711909Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-30T18:29:20.215426Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/react/CHANGELOG.md")}
+2024-09-30T18:29:20.215475Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@teddy-ui/react"), path: AnchoredSystemPathBuf("packages/react") }}))
