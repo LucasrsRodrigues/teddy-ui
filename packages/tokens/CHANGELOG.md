@@ -1,5 +1,11 @@
 # @teddy-ui/tokens
 
+## 3.0.0
+
+### Major Changes
+
+- 50069d2: add resizee button
+
 ## 2.0.1
 
 ### Patch Changes

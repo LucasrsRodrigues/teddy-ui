@@ -1,5 +1,15 @@
 # @teddy-ui/react
 
+## 3.0.0
+
+### Major Changes
+
+- 50069d2: add resizee button
+
+### Patch Changes
+
+- Fix with button
+
 ## 2.0.1
 
 ### Patch Changes
