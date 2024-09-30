@@ -9,7 +9,7 @@
     "lint": "turbo run lint",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filte=packages/docs && changeset publish"
+    "release": "turbo run build --filter=@teddy-ui/docs && changeset publish"
   },
   "packageManager": "npm@10.5.0",
   "name": "with-vite",
