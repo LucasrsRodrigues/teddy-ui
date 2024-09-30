@@ -18,7 +18,7 @@ export default {
       }
     },
     size: {
-      options: ['sm', 'md', "full"],
+      options: ['sm', 'md'],
       control: {
         type: "inline-radio"
       }
@@ -47,14 +47,6 @@ export const Small: StoryObj<ButtonProps> = {
     size: 'sm'
   }
 }
-
-export const Full: StoryObj<ButtonProps> = {
-  args: {
-    size: 'full'
-  }
-}
-
-
 
 export const Disabled: StoryObj<ButtonProps> = {
   args: {

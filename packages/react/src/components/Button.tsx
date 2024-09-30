@@ -17,6 +17,7 @@ export const Button = styled('button', {
   gap: '$2',
 
   cursor: 'pointer',
+  width: '100%',
 
   '&:disabled': {
     cursor: 'not-allowed',
@@ -64,11 +65,6 @@ export const Button = styled('button', {
         height: 35,
       },
       md: {
-        padding: '0 $4',
-        height: 46,
-      },
-      full: {
-        width: '100%',
         padding: '0 $4',
         height: 46,
       },

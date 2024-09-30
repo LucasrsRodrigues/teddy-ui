@@ -1,5 +1,11 @@
 # @teddy-ui/react
 
+## 3.1.0
+
+### Minor Changes
+
+- Add width 100% in button for primary
+
 ## 3.0.0
 
 ### Major Changes
