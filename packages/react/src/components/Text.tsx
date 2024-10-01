@@ -11,63 +11,69 @@ export const Text = styled('p', {
     size: {
       xxs: {
         fontSize: '$xxs',
-        '@media (min-width: 640px)': { fontSize: '$xs' }, // Telas médias
-        '@media (min-width: 1024px)': { fontSize: '$sm' }, // Telas grandes
-        '@media (min-width: 1440px)': { fontSize: '$md' }, // Telas extra grandes
+        '@media (max-width: 1440px)': { fontSize: '$xxs' }, // valor mais alto nas telas maiores
+        '@media (max-width: 1024px)': { fontSize: '$xxs' },
+        '@media (max-width: 640px)': { fontSize: '$xxs' },
       },
       xs: {
         fontSize: '$xs',
-        '@media (min-width: 640px)': { fontSize: '$sm' },
-        '@media (min-width: 1024px)': { fontSize: '$md' },
-        '@media (min-width: 1440px)': { fontSize: '$lg' },
+        '@media (max-width: 1440px)': { fontSize: '$xs' },
+        '@media (max-width: 1024px)': { fontSize: '$xs' },
+        '@media (max-width: 640px)': { fontSize: '$xxs' },
       },
       sm: {
         fontSize: '$sm',
-        '@media (min-width: 640px)': { fontSize: '$md' },
-        '@media (min-width: 1024px)': { fontSize: '$lg' },
-        '@media (min-width: 1440px)': { fontSize: '$xl' },
+        '@media (max-width: 1440px)': { fontSize: '$sm' },
+        '@media (max-width: 1024px)': { fontSize: '$xs' },
+        '@media (max-width: 640px)': { fontSize: '$xxs' },
       },
       md: {
         fontSize: '$md',
-        '@media (min-width: 640px)': { fontSize: '$lg' },
-        '@media (min-width: 1024px)': { fontSize: '$xl' },
-        '@media (min-width: 1440px)': { fontSize: '$2xl' },
+        '@media (max-width: 1440px)': { fontSize: '$md' },
+        '@media (max-width: 1024px)': { fontSize: '$sm' },
+        '@media (max-width: 640px)': { fontSize: '$xs' },
       },
       lg: {
         fontSize: '$lg',
-        '@media (min-width: 640px)': { fontSize: '$xl' },
-        '@media (min-width: 1024px)': { fontSize: '$2xl' },
-        '@media (min-width: 1440px)': { fontSize: '$3xl' },
+        '@media (max-width: 1440px)': { fontSize: '$lg' },
+        '@media (max-width: 1024px)': { fontSize: '$md' },
+        '@media (max-width: 640px)': { fontSize: '$sm' },
       },
       xl: {
         fontSize: '$xl',
-        '@media (min-width: 640px)': { fontSize: '$2xl' },
-        '@media (min-width: 1024px)': { fontSize: '$3xl' },
-        '@media (min-width: 1440px)': { fontSize: '$4xl' },
+        '@media (max-width: 1440px)': { fontSize: '$xl' },
+        '@media (max-width: 1024px)': { fontSize: '$lg' },
+        '@media (max-width: 640px)': { fontSize: '$md' },
       },
       '2xl': {
         fontSize: '$2xl',
-        '@media (min-width: 640px)': { fontSize: '$3xl' },
-        '@media (min-width: 1024px)': { fontSize: '$4xl' },
-        '@media (min-width: 1440px)': { fontSize: '$5xl' },
+        '@media (max-width: 1440px)': { fontSize: '$2xl' },
+        '@media (max-width: 1024px)': { fontSize: '$xl' },
+        '@media (max-width: 640px)': { fontSize: '$lg' },
       },
       '4xl': {
         fontSize: '$4xl',
-        '@media (min-width: 640px)': { fontSize: '$5xl' },
-        '@media (min-width: 1024px)': { fontSize: '$6xl' },
-        '@media (min-width: 1440px)': { fontSize: '$7xl' },
+        '@media (max-width: 1440px)': { fontSize: '$4xl' },
+        '@media (max-width: 1024px)': { fontSize: '$2xl' },
+        '@media (max-width: 640px)': { fontSize: '$xl' },
       },
       '5xl': {
         fontSize: '$5xl',
-        '@media (min-width: 640px)': { fontSize: '$6xl' },
-        '@media (min-width: 1024px)': { fontSize: '$7xl' },
-        '@media (min-width: 1440px)': { fontSize: '$8xl' },
+        '@media (max-width: 1440px)': { fontSize: '$5xl' },
+        '@media (max-width: 1024px)': { fontSize: '$4xl' },
+        '@media (max-width: 640px)': { fontSize: '$2xl' },
       },
       '6xl': {
         fontSize: '$6xl',
-        '@media (min-width: 640px)': { fontSize: '$7xl' },
-        '@media (min-width: 1024px)': { fontSize: '$8xl' },
-        '@media (min-width: 1440px)': { fontSize: '$9xl' },
+        '@media (max-width: 1440px)': { fontSize: '$6xl' },
+        '@media (max-width: 1024px)': { fontSize: '$5xl' },
+        '@media (max-width: 640px)': { fontSize: '$4xl' },
+      },
+      '7xl': {
+        fontSize: '$7xl',
+        '@media (max-width: 1440px)': { fontSize: '$7xl' },
+        '@media (max-width: 1024px)': { fontSize: '$6xl' },
+        '@media (max-width: 640px)': { fontSize: '$5xl' },
       },
     },
   },
@@ -79,7 +85,6 @@ export const Text = styled('p', {
 
 export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType
-  className?: string
 }
 
 Text.displayName = 'Text'

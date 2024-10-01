@@ -1,5 +1,11 @@
 # @teddy-ui/react
 
+## 3.4.0
+
+### Minor Changes
+
+- resize again
+
 ## 3.3.0
 
 ### Minor Changes
