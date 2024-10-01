@@ -1,5 +1,13 @@
-import { createStitches, defaultThemeMap } from "@stitches/react";
-import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from "@teddy-ui/tokens";
+import { createStitches, defaultThemeMap } from '@stitches/react'
+import {
+  colors,
+  fonts,
+  fontSizes,
+  fontWeights,
+  lineHeights,
+  radii,
+  space,
+} from '@teddy-ui/tokens'
 
 export const {
   styled,
@@ -9,7 +17,7 @@ export const {
   getCssText,
   theme,
   createTheme,
-  config
+  config,
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,
@@ -23,6 +31,6 @@ export const {
     fontWeights,
     lineHeights,
     radii,
-    space
+    space,
   },
 })

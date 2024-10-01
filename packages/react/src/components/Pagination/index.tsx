@@ -1,4 +1,3 @@
-import { Button } from '../Button'
 import { PaginationContainer, PaginationItem } from './styles'
 
 export interface PaginationProps {
