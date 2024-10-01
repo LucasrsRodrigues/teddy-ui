@@ -1,5 +1,11 @@
 # @teddy-ui/tokens
 
+## 3.1.0
+
+### Minor Changes
+
+- d02d3c6: add new token error color and add error input
+
 ## 3.0.0
 
 ### Major Changes
