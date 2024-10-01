@@ -1,5 +1,11 @@
 # @teddy-ui/react
 
+## 4.1.0
+
+### Minor Changes
+
+- fix textinput color to black
+
 ## 4.0.0
 
 ### Major Changes
