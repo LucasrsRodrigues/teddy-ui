@@ -1,5 +1,11 @@
 # @teddy-ui/react
 
+## 3.5.0
+
+### Minor Changes
+
+- add tailwindcss compatibility
+
 ## 3.4.0
 
 ### Minor Changes

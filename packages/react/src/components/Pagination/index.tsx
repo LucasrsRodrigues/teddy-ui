@@ -1,10 +1,12 @@
+import { ComponentProps } from 'react'
 import { PaginationContainer, PaginationItem } from './styles'
 
-export interface PaginationProps {
+export interface PaginationProps extends ComponentProps<'div'> {
   totalItems: number
   itemsPerPage: number
   currentPage: number
   onPageChange: (page: number) => void
+  className?: string
 }
 
 export function Pagination({
@@ -12,6 +14,7 @@ export function Pagination({
   itemsPerPage,
   currentPage,
   onPageChange,
+  className,
 }: PaginationProps) {
   // Calcula o total de páginas a partir do total de itens e itens por página
   const totalPages = Math.ceil(totalItems / itemsPerPage) || 1
@@ -52,7 +55,7 @@ export function Pagination({
   const pages = getPaginationRange()
 
   return (
-    <PaginationContainer>
+    <PaginationContainer className={className}>
       {pages.map((page, index) => (
         <PaginationItem
           key={index}

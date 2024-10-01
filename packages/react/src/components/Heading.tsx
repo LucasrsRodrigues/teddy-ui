@@ -1,7 +1,7 @@
 import { styled } from '../styles'
 import { ElementType, ComponentProps } from 'react'
 
-export const Heading = styled('h2', {
+const HeadingComponent = styled('h2', {
   fontFamily: '$default',
   lineHeight: '$shorter',
   margin: 0,
@@ -57,8 +57,14 @@ export const Heading = styled('h2', {
   },
 })
 
-export interface HeadingProps extends ComponentProps<typeof Heading> {
+export interface HeadingProps extends ComponentProps<typeof HeadingComponent> {
   as?: ElementType
+}
+
+export const Heading = ({ className, ...props }: HeadingProps) => {
+  return (
+    <HeadingComponent className={className}>{props?.children}</HeadingComponent>
+  )
 }
 
 Heading.displayName = 'Heading'

@@ -1,7 +1,7 @@
 import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
-export const BoxStyled = styled('div', {
+const BoxStyled = styled('div', {
   padding: '$4',
   borderRadius: '$md',
   backgroundColor: '$white',

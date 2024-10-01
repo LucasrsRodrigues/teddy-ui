@@ -1,7 +1,7 @@
 import { ComponentProps, ReactElement } from 'react'
 import { styled } from '../styles'
 
-export const Button = styled('button', {
+const ButtonComponent = styled('button', {
   all: 'unset',
   borderRadius: '$xs',
   fontSize: '$sm',
@@ -77,8 +77,16 @@ export const Button = styled('button', {
   },
 })
 
-export interface ButtonProps extends ComponentProps<typeof Button> {
+export interface ButtonProps extends ComponentProps<typeof ButtonComponent> {
   as?: ReactElement
+}
+
+export const Button = ({ className, ...props }: ButtonProps) => {
+  return (
+    <ButtonComponent className={className} {...props}>
+      {props?.children}
+    </ButtonComponent>
+  )
 }
 
 Button.displayName = 'Button'
