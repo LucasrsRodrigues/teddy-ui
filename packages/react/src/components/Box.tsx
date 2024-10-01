@@ -9,12 +9,13 @@ const BoxStyled = styled('div', {
 
 export interface BoxProps extends ComponentProps<typeof BoxStyled> {
   as?: ElementType
+  children: React.ReactNode
 }
 
-export const Box = ({ className, ...props }: BoxProps) => {
+export const Box = ({ className, children, ...props }: BoxProps) => {
   return (
     <BoxStyled className={className} {...props}>
-      {props?.children}
+      {children}
     </BoxStyled>
   )
 }

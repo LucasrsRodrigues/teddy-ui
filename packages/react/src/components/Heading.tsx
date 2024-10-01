@@ -59,11 +59,14 @@ const HeadingComponent = styled('h2', {
 
 export interface HeadingProps extends ComponentProps<typeof HeadingComponent> {
   as?: ElementType
+  children: string
 }
 
-export const Heading = ({ className, ...props }: HeadingProps) => {
+export const Heading = ({ className, children, ...props }: HeadingProps) => {
   return (
-    <HeadingComponent className={className}>{props?.children}</HeadingComponent>
+    <HeadingComponent className={className} {...props}>
+      {children}
+    </HeadingComponent>
   )
 }
 

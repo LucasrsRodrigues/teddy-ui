@@ -1,5 +1,11 @@
 # @teddy-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- Fix Types
+
 ## 3.5.0
 
 ### Minor Changes

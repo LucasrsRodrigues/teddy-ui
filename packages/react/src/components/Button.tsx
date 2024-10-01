@@ -1,4 +1,4 @@
-import { ComponentProps, ReactElement } from 'react'
+import React, { ComponentProps, ReactElement } from 'react'
 import { styled } from '../styles'
 
 const ButtonComponent = styled('button', {
@@ -79,12 +79,13 @@ const ButtonComponent = styled('button', {
 
 export interface ButtonProps extends ComponentProps<typeof ButtonComponent> {
   as?: ReactElement
+  children: React.ReactNode
 }
 
-export const Button = ({ className, ...props }: ButtonProps) => {
+export const Button = ({ className, children, ...props }: ButtonProps) => {
   return (
     <ButtonComponent className={className} {...props}>
-      {props?.children}
+      {children}
     </ButtonComponent>
   )
 }
