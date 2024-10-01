@@ -1,5 +1,11 @@
 # @teddy-ui/react
 
+## 3.2.0
+
+### Minor Changes
+
+- add resize in Text and Header component
+
 ## 3.1.0
 
 ### Minor Changes
@@ -12,11 +18,11 @@
 
 - 50069d2: add resizee button
 
-
 ### Patch Changes
 
 - Fix with button
-- 
+-
+
 ## 2.0.1
 
 ### Patch Changes
