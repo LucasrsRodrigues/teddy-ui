@@ -1,5 +1,11 @@
 # @teddy-ui/react
 
+## 3.3.0
+
+### Minor Changes
+
+- add resize to less by width screen
+
 ## 3.2.0
 
 ### Minor Changes
