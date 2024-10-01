@@ -7,5 +7,7 @@ export const colors = {
   granit: '#AAAAAA',
 
   orange: "#EC6724",
-  orangeLight: "#ff5f0b"
+  orangeLight: "#ff5f0b",
+
+  error: "#dc2626"
 }

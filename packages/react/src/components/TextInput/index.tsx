@@ -3,12 +3,13 @@ import { Input, TextInputContainer } from './styles'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
   className?: string
+  hasError?: boolean
 }
 
 export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
-  ({ className, ...props }: TextInputProps, ref) => {
+  ({ className, hasError = false, ...props }: TextInputProps, ref) => {
     return (
-      <TextInputContainer className={className}>
+      <TextInputContainer className={className} error={hasError}>
         <Input ref={ref} {...props} />
       </TextInputContainer>
     )

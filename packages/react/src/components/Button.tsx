@@ -80,6 +80,7 @@ const ButtonComponent = styled('button', {
 export interface ButtonProps extends ComponentProps<typeof ButtonComponent> {
   as?: ReactElement
   children: React.ReactNode
+  className?: string
 }
 
 export const Button = ({ className, children, ...props }: ButtonProps) => {

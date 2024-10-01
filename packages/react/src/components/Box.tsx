@@ -10,6 +10,7 @@ const BoxStyled = styled('div', {
 export interface BoxProps extends ComponentProps<typeof BoxStyled> {
   as?: ElementType
   children: React.ReactNode
+  className?: string
 }
 
 export const Box = ({ className, children, ...props }: BoxProps) => {

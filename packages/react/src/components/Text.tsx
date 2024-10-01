@@ -86,6 +86,7 @@ const TextComponent = styled('p', {
 export interface TextProps extends ComponentProps<typeof TextComponent> {
   as?: ElementType
   children: string
+  className?: string
 }
 
 export const Text = ({ className, children, ...props }: TextProps) => {

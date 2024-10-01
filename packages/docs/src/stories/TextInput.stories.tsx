@@ -19,8 +19,14 @@ export default {
       options: ['primary', 'secondary'],
       control: {
         type: "inline-radio"
-      }
+      },
     },
+    hasError: {
+      options: [true, false],
+      control: {
+        type: "inline-radio"
+      }
+    }
   }
 } as Meta<TextInputProps>;
 
@@ -36,4 +42,8 @@ export const Disabled: StoryObj<TextInputProps> = {
   }
 }
 
-
+export const WithError: StoryObj<TextInputProps> = {
+  args: {
+    hasError: true
+  }
+}

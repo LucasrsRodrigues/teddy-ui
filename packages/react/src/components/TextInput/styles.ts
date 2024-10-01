@@ -17,6 +17,14 @@ export const TextInputContainer = styled('div', {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
+
+  variants: {
+    error: {
+      true: {
+        borderColor: '$error',
+      },
+    },
+  },
 })
 
 export const Input = styled('input', {

@@ -60,6 +60,7 @@ const HeadingComponent = styled('h2', {
 export interface HeadingProps extends ComponentProps<typeof HeadingComponent> {
   as?: ElementType
   children: string
+  className?: string
 }
 
 export const Heading = ({ className, children, ...props }: HeadingProps) => {
